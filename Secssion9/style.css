@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+#products{
+  width: 100%;
+}
+.productcolumn {
+  width: 33.3%;
+  float: left;
+  padding: 50px;
+}
+#Customer {
+  width: 100%;
+}
+
+.CustomerColumn {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+.footer {
+  clear: both;
+}
