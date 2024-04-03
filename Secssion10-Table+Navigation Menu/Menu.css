@@ -1,0 +1,34 @@
+* {
+  direction: rtl;
+}
+.ul-bricks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  
+}
+
+.li-bricks {
+  float: right;
+}
+
+.a-bricks {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+#fname{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#label{
+    color: white;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}

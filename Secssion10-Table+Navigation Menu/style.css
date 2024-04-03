@@ -1,0 +1,34 @@
+* {
+  direction: rtl;
+}
+
+#tabl-bricks {
+  font-family: arial, sans-serif;
+  border-collapse: collapse; */
+  width: 100%;
+}
+.tablclass {
+  border: 1px solid black;
+}
+
+#Fname,
+#Codice {
+  width: 30%;
+}
+#Lname {
+  width: 40%;
+}
+tr:nth-child(even) {
+  background-color: #d0f0cd;
+}
+
+#total-bricks {
+  width: 50%;
+  
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: right;
+  padding: 8px;
+}
