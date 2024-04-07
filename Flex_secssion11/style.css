@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.b-cards {
+  display: flex;
+}
+.b-cards > div {
+  width: 25%;
+}
