@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #232727;
+}
+ul {
+  list-style-type: none;
+}
+
+.topnav a {
+  /* float: right; */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.li-bricks {
+  float: left;
+}
+
+@media screen and (max-width: 700px) {
+  .li-bricks {
+    float: none;
+    width: 100%;
+  }
+}
