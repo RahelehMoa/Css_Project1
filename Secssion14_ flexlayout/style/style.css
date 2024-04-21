@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: flex;
+  justify-content: left;
+  /* flex-direction: row; */
+}
+/* flex-direction: row is defult va niyazi nist.  */
+/* Create two columns/boxes */
+/* navigation is vertical va niyazi be float */
+nav {
+  flex: 30%;
+  background: #ccc;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  flex: 70%;
+  background-color: #f1f1f1;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  section {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+}
+/* flex-direction: column; baraye in ast k vaghti halat mobile ast va kuchik mikonim halatesh hevz shavad va darune class div ya hamun section gharar midahim. mitavan dar nav va articel az wrap estefadeh kard  */
+/* width 100% baraye in k scroll nashavad. */
