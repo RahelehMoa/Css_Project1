@@ -1,0 +1,44 @@
+* {
+  direction: rtl;
+  box-sizing: border-box;
+}
+.flex_container {
+  display: flex;
+  flex-direction: row;
+}
+.sub_flex_container {
+  border: 2px solid rgb(236, 233, 233);
+  width: 33.3%;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+}
+.a_bricks {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  padding: 15px 20px;
+  background-color: rgb(69, 110, 86);
+  display: inline-block;
+  /* transition: width 5s; */
+  transition-delay: 1s;
+  transition-duration: 2s;
+}
+.a_bricks:hover {
+  opacity: 75%;
+  border-bottom: 1px solid rgb(68, 68, 68);
+  padding: 15px 25px;
+  /* width: 200px; */
+  padding: 15px 40px;
+}
+@media screen and (max-width: 700px) {
+  .flex_container {
+    flex-direction: column;
+  }
+  img {
+    width: 50%;
+  }
+}
+/* width baraye taghir size pictures hast. */

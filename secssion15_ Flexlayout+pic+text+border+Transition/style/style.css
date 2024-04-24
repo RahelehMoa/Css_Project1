@@ -1,0 +1,12 @@
+.transition {
+  /* width: 100px; */
+  /* height: 100px; */
+  background: rgb(63, 136, 75);
+  transition: width 5s;
+  padding: 15px 10px;
+  display: inline-block;
+}
+
+.transition:hover {
+  width: 100px;
+}
